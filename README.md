@@ -1,11 +1,5 @@
 # Global Layoffs Data Analysis (SQL Project)
 
-![SQL](https://img.shields.io/badge/SQL-MySQL-blue)
-![EDA](https://img.shields.io/badge/Analysis-EDA-orange)
-![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
-
----
 
 ## Project Overview
 This project analyzes global layoffs data using SQL to uncover trends, patterns, and business insights across companies, industries, and countries.
