@@ -1,58 +1,67 @@
-# 📊 Global Layoffs Data Analysis (SQL Project)
+# Global Layoffs Data Analysis (SQL Project)
 
-## 📌 Project Overview
-This project explores global layoffs data using SQL, focusing on identifying trends, patterns, and key business insights across companies, industries, and countries.
-
-The dataset was first cleaned and then analyzed using exploratory data analysis (EDA) techniques to uncover meaningful insights.
+![SQL](https://img.shields.io/badge/SQL-MySQL-blue)
+![EDA](https://img.shields.io/badge/Analysis-EDA-orange)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ---
 
-## 🛠️ Tools & Technologies
+## Project Overview
+This project analyzes global layoffs data using SQL to uncover trends, patterns, and business insights across companies, industries, and countries.
+
+The workflow includes data cleaning followed by exploratory data analysis (EDA), enabling a deeper understanding of real-world workforce trends.
+
+---
+
+## Tools & Technologies
 - SQL (MySQL)
-- Data Cleaning Techniques
+- Data Cleaning
 - Exploratory Data Analysis (EDA)
 - Git & GitHub
 
 ---
 
-## 📂 Project Structure
-- `Data Cleaning world_layoffs.sql` → Data cleaning queries  
-- `Exploratory Data Analysis.sql` → EDA queries and insights  
-- `Data Cleaning Project Documentation.pdf` → Detailed report  
+## Project Structure
+SQL_Project_global-layoffs-data-analysis
+│
+├── Data Cleaning world_layoffs.sql
+├── Exploratory Data Analysis.sql
+├── Data Cleaning Project Documentation.pdf
+└── README.md
+---
+
+## Key Analysis
+- Identified companies with the highest layoffs
+- Analyzed layoffs across industries and countries
+- Evaluated yearly and monthly layoff trends
+- Built rolling totals to track progression over time
+- Ranked companies by layoffs per year using CTEs and window functions
 
 ---
 
-## 🔍 Key Analysis Performed
-- Maximum layoffs by company  
-- Layoffs by industry, country, and year  
-- Rolling total layoffs over time  
-- Company-wise yearly layoffs ranking using CTEs  
-- Trend analysis using grouping and window functions  
+## Business Impact & Insights
+- Layoffs peaked in 2022 and continued rising into 2023
+- Consumer and Retail sectors were most affected
+- The United States recorded the highest layoffs
+- Post-IPO companies experienced large-scale restructuring
+- Layoff trends indicate prolonged economic pressure
+- Dataset limitations influenced analytical choices (e.g., percentage layoffs)
 
 ---
 
-## 📊 Business Impact & Analytical Insights
-- Layoffs significantly increased from 2020 to 2023, with a major spike in 2022  
-- Consumer and Retail industries were the most affected  
-- The United States recorded the highest number of layoffs  
-- Post-IPO companies experienced the largest layoffs  
-- Rolling totals revealed a continuous upward trend  
-- Percentage layoffs were not heavily used due to missing employee data  
+## Key Learnings
+- Advanced SQL querying techniques (GROUP BY, aggregates)
+- Use of CTEs and window functions (DENSE_RANK)
+- Time-series analysis using SQL
+- Translating data into actionable business insights
 
 ---
 
-## 💡 Key Learning Outcomes
-- Advanced SQL querying (GROUP BY, ORDER BY, aggregates)  
-- Use of CTEs and window functions (e.g., DENSE_RANK)  
-- Time-based analysis (yearly & monthly trends)  
-- Translating raw data into business insights  
+## Conclusion
+This project demonstrates the ability to clean, analyze, and interpret real-world data using SQL while connecting technical results to business impact.
 
 ---
 
-## 🚀 Conclusion
-This project demonstrates the ability to clean, analyze, and extract meaningful insights from real-world datasets using SQL while understanding the business context behind the data.
-
----
-
-## 👩🏽‍💻 Author
-**Firdaws**
+## Author
+Firdaws
