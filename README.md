@@ -16,13 +16,13 @@ The workflow includes data cleaning followed by exploratory data analysis (EDA),
 
 ---
 
-## Project Structure
-SQL_Project_global-layoffs-data-analysis
-│
-├── Data Cleaning world_layoffs.sql
-├── Exploratory Data Analysis.sql
-├── Data Cleaning Project Documentation.pdf
-└── README.md
+
+## Project Files
+
+- `Data Cleaning world_layoffs.sql` → Data cleaning queries  
+- `Exploratory Data Analysis.sql` → EDA queries  
+- `Data Cleaning Project Documentation.pdf` → Full report  
+- `README.md` → Project overview  
 ---
 
 ## Key Analysis
